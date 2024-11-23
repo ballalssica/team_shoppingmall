@@ -7,7 +7,13 @@ class ProductRegistration extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('상품등록'),
+        title: const Text('농산물 등록하기'),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_ios_new),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: const Center(
         child: Text(
@@ -18,5 +24,5 @@ class ProductRegistration extends StatelessWidget {
         ),
       ),
     );
-  }
-}
+  }                   
+} 
