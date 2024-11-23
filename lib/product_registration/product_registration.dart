@@ -15,14 +15,27 @@ class ProductRegistration extends StatelessWidget {
           },
         ),
       ),
-      body: const Center(
-        child: Text(
-          'Hello!!!!!',
-          style: TextStyle(
-            fontFamily: 'NotoSnas'
-          )
-        ),
-      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            height: 300,
+            color: Colors.blue,
+            child: const Center(
+              child: Text('이미지등록하기'),
+            ),
+          ),
+
+          Container(
+            child: Text('상품등록'),
+          ),
+          
+           Container(
+            child: Text('상품등록버튼'),
+          )         
+
+        ],
+      )
     );
-  }                   
-} 
+  }
+}
