@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:team_shoppingmall/pages/home_page.dart';
-import 'package:team_shoppingmall/pages/product_cart.dart';
-import 'package:team_shoppingmall/pages/product_details.dart';
-import 'package:team_shoppingmall/pages/product_registration.dart';
+import 'package:team_shoppingmall/home_page/home_page.dart';
+import 'package:team_shoppingmall/product_cart/product_cart.dart';
+import 'package:team_shoppingmall/product_details/product_details.dart';
+import 'package:team_shoppingmall/product_registration/product_registration.dart';
+
 
 void main() {
   runApp(const MyApp());
