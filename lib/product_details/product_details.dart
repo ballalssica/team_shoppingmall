@@ -7,14 +7,14 @@ class ProductDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('상품상세'),
+        title: const Text('상품상세'), // const 추가
       ),
       body: const Center(
         child: Text(
-          'Hello!!!!!',
+          'Hello!',
           style: TextStyle(
-            fontFamily: 'NotoSnas'
-          )
+            fontFamily: 'NotoSans', // 'NotoSnas' -> 'NotoSans'로 수정
+          ),
         ),
       ),
     );
