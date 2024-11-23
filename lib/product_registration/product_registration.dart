@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team_shoppingmall/product_registration/widget/image_picker.dart';
 
 class ProductRegistration extends StatelessWidget {
   const ProductRegistration({super.key});
@@ -16,15 +17,9 @@ class ProductRegistration extends StatelessWidget {
         ),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Container(
-            height: 300,
-            color: Colors.blue,
-            child: const Center(
-              child: Text('이미지등록하기'),
-            ),
-          ),
+          ImagePickerContainer(), // 이미지 등록 위젯
 
           Container(
             child: Text('상품등록'),
