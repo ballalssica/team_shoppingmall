@@ -32,7 +32,7 @@ class ProductDetails extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              '설명: 신선한 당근 한 묶음입니다. 산지 직송으로 하루만에 배달하는 핫당근이에요.',
+              '설명: 신선한 당근 한 묶음입니다. 산지 직송으로 하루만에 배달하는 핫당근이에요!!!!!!!!!!!!!!!!!!',
               style: TextStyle(fontSize: 16),
             ),
           ],
