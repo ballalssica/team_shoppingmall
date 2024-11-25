@@ -45,7 +45,7 @@ class _ImagePickerContainerState extends State<ImagePickerContainer> {
               _image!,
               width: double.infinity,
               height: double.infinity,
-              fit: BoxFit.cover, 
+              fit: BoxFit.contain, 
             ),
     );
   }
