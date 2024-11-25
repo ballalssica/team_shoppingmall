@@ -8,7 +8,7 @@ class ProductDetails extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('상품 상세 정보'),
+        title: Text('상품 상세 정보!!!!'),
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
